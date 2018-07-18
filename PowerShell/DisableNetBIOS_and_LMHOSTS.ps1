@@ -1,0 +1,2 @@
+set-ItemProperty HKLM:\SYSTEM\CurrentControlSet\services\NetBT\Parameters\Interfaces\tcpip* -Name NetbiosOptions -Value 2
+set-ItemProperty HKLM:\SYSTEM\CurrentControlSet\services\NetBT\Parameters -Name EnableLMHOSTS -Value 0
